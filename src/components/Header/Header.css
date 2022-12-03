@@ -1,0 +1,52 @@
+header {
+  height: 100px;
+}
+
+header.sticky {
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+  z-index: 10;
+  transition: 0.3s;
+  position: sticky;
+  top: 0;
+  background: var(--dark-light);
+  height: 70px;
+}
+
+header .header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header-inner .logo {
+  font-size: 30px;
+  line-height: 40px;
+  color: var(--red-text);
+  font-weight: 900;
+}
+
+.header-inner .link {
+  margin-right: 30px;
+  color: var(--light);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  transition: 0.3s;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.header-inner .link:hover {
+  background: var(--red);
+  color: var(--light);
+}
+
+header .menu {
+  display: none;
+}
+
+header .mobile-links {
+  display: none;
+}
