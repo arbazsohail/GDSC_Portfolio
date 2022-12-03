@@ -9,7 +9,7 @@ function Projects() {
         <div className='title'>
           <h3>Featured Projects</h3>
           <a
-            href='https://github.com/hafizjavaid'
+            href='https://github.com/arbazsohail'
             target='_blank'
             className='btn'
             rel='noreferrer'

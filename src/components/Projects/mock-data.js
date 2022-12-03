@@ -5,13 +5,13 @@ export const projects = [
   {
     title: 'Project 1',
     img: GalleryProject,
-    gLink: 'https://github.com/hafizjavaid',
-    lLink: 'https://me-hafiz.netlify.app/',
+    gLink: 'https://github.com/arbazsohail',
+    lLink: 'https://github.com/arbazsohail',
   },
   {
     title: 'Project 2',
     img: MovieProject,
-    gLink: 'https://github.com/hafizjavaid',
-    lLink: 'https://me-hafiz.netlify.app/',
+    gLink: 'https://github.com/arbazsohail',
+    lLink: 'https://github.com/arbazsohail',
   },
 ];
